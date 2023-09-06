@@ -1,0 +1,746 @@
+ 
+ [
+  {
+    "id": 0,
+    "isFavorited": false,
+    "title": "High End Modern Home",
+    "rating": 4.5,
+    "location": "Long Island, NY",
+    "size": "1700 sqft • 2 bed • 1 bath ",
+    "price": 2000,
+    "amenities": ["Wifi •", " Kitchen •", " Beach •", " Pool"],
+    "info": "Pool side",
+    "category": "Pool",
+    "imgSrc": ["https://a0.muscache.com/im/pictures/19c4a4f2-bad6-41de-bf57-6308c1f7046c.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/194d686b-85a7-4ba6-9d73-b77c253de224.jpeg?im_w=720",
+  "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/b5b33e98-5206-4564-811f-08008fb0496d.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/27412663-2704-4a26-8b18-0bf6186f802c.jpeg?im_w=1440",
+  "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/61189869-0694-48f6-8a4b-346dca2d3653.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/9150cb59-9b41-4a4e-b0e6-7042eeaf6472.jpeg?im_w=1440",
+ "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/70684d68-6ed2-4729-9768-f7ddb625e7fa.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/miso/Hosting-932603423877118830/original/b5b33e98-5206-4564-811f-08008fb0496d.jpeg?im_w=1440"]
+  },
+  {
+    "id": 1,
+    "isFavorited": false,
+    "title": "Stone House Estate",
+    "rating": 4.7,
+    "location": "Upstate, NY",
+    "size": "1700 sqft • 2 bed • 1 bath ",
+    "price": 750,
+    "amenities": ["Wifi •", " Kitchen •", " Beach •", " Pool"],
+    "category": "Pool",
+    "info": "Pool side",
+    "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-863267850143825871/original/680e63b3-e76b-4092-b127-a651eab87528.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-863267850143825871/original/3bdd0bdd-2b6f-4371-b8cb-e3f2be2419ea.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-863267850143825871/original/b0260b03-1640-4830-ad4d-2cf16b6075c8.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/miso/Hosting-863267850143825871/original/7ab81ffb-dc37-4f3f-bff4-66a45f9f82b1.jpeg?im_w=1440"]
+  },
+  {
+    "id": 2,
+    "isFavorited": false,
+    "title": "Luxury Cabin",
+    "rating": 4.4,
+    "location": "PA",
+    "price": 1350,
+    "amenities": ["Wifi •", " Kitchen •", " Lake •", " Pool"],
+    "category": "Skiing",
+    "info": "Pool side",
+    "imgSrc": ["https://a0.muscache.com/im/pictures/238762eb-9486-45cc-baa0-843c0fca6425.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-15228625/original/638d555b-dacf-4703-9ccb-a6333c432f45.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-15228625/original/4fbde610-07bb-4a7b-80ff-358e719f3152.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/miso/Hosting-15228625/original/e0ba849a-b532-4b3c-8e1d-7c110bd89e6c.jpeg?im_w=1440" ]
+  },
+  {
+    "id": 3,
+    "isFavorited": false,
+    "title": "Rock Cave Home",
+    "rating": 4.9,
+    "location": "Utah",
+    "size": "1700 sqft • 2 bed • 1 bath ",
+    "price": 855,
+    "amenities": ["Wifi •", " Kitchen •", " Lake •", " Pool"],
+    "category": "Cave",
+    "info": "Pool side",
+    "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-32183107/original/55240330-dafe-4109-a00f-04d0a6045190.jpeg?im_w=1200",
+               "https://a0.muscache.com/im/pictures/miso/Hosting-32183107/original/5446a1de-8307-4ffb-9fd9-26b38d3296d8.jpeg?im_w=720",
+              "https://a0.muscache.com/im/pictures/miso/Hosting-32183107/original/00a0b7b9-2b0b-4b36-b235-d5876d535f50.jpeg?im_w=720"]
+  },
+  
+   {
+       "id": 4,
+       "isFavorited": false,
+      "title": "Beach Retreat",
+      "rating": 4.8,
+      "location": "Fort Lauderdale, FL",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 871,
+      "amenities": ["Wifi •", " Kitchen •", " Hot tub •", " Pool"],
+      "category": "Beach",
+      "info": "Kick back and relax in this tranquil, stylish oasis. BRAND NEW landscaped resort-like outdoor space including furnished pool area with hot tub, lounging deck & outdoor shower. Clean, private, with fully-equipped kitchen on Asbury's quiet and friendly northwest. ",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-51412090/original/d9900902-4385-4aaf-b768-e4486f70b048.jpeg?im_w=1200",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-51412090/original/48c65207-a737-444c-a90e-603997ca593e.jpeg?im_w=1440",
+  "https://a0.muscache.com/im/pictures/miso/Hosting-51412090/original/e625f8da-f964-4105-9526-a1e975de048d.jpeg?im_w=1440","https://a0.muscache.com/im/pictures/miso/Hosting-51412090/original/7bd514a2-a072-45ac-88a4-7ae078663644.jpeg?im_w=1440"]
+    },
+    {
+      "id": 5,
+      "isFavorited": false,
+      "title": "Waterfront Estate",
+      "rating": 5,
+      "location": "New Jersey",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 3500,
+      "amenities": ["Wifi •", " Kitchen •", " Beach front •", " Pool"],
+      "category": "Beach",
+      "info": "Pool side",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-752812878873332322/original/f79b0ce2-cd0f-44a2-8037-b42c82c754a1.jpeg?im_w=1200",
+       "https://a0.muscache.com/im/pictures/miso/Hosting-752812878873332322/original/46aff77d-91b9-4c3d-b285-9d8a14441680.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-752812878873332322/original/5cf8ba1e-2910-42d0-b850-d40d27ffc086.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-752812878873332322/original/22b0630e-8293-4b10-b7dc-34825a12fefb.jpeg?im_w=1440"]
+    },
+    {
+      "id": 6,
+      "isFavorited": false,
+      "title": "Private Beach",
+      "rating": 5,
+      "location": "Connecticut",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 850,
+      "amenities": ["Wifi •", " Kitchen •", " Pool"],
+      "category": "Beach",
+      "info": "Pool side",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/24745c14-b897-4a1f-a8fb-f252abfdca4b.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/0894a78d-8121-4d28-b32d-aaf7c60c5285.jpeg?im_w=1440",
+  "https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/30f58012-b130-46b7-afdb-b8f9206ecad0.jpeg?im_w=1200",
+"https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/f3f0c9a6-7126-4957-a68c-72e674044a10.jpeg?im_w=1440",
+"https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/3409e3ca-9666-4624-ad74-d5d34af67eb8.jpeg?im_w=1440",
+     
+     "https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/3a803e20-b5d1-459f-b934-8872d5054b6f.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/727bd4e5-960b-41b8-95cb-7ca45f378f2e.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/f5f0624a-84fa-4106-b5c8-9d09f4688eab.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/a2b50505-2c8d-4e82-819a-898a3f6aff5d.jpg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-49077350/original/89c86e58-099d-47a7-bee9-31e940258469.jpeg?im_w=1440",
+  "https://a0.muscache.com/im/pictures/f3467a2d-315f-4d48-ad9c-1b47f61075e1.jpg?im_w=1440"
+     ]
+    },
+    {
+      "id": 7,
+      "isFavorited": false,
+      "title": "Private Beach Villa",
+      "rating": 4.4,
+      "location": "New York",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 770,
+      "amenities": ["Wifi •", " Kitchen •", " Beach •", " Beach Access"],
+      "category": "Beach",
+      "info": "Pool side",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/d66934e8-9712-424a-b8a8-d0757ff6bfb9.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/c027c633-b177-498f-a170-0251c66f7d61.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/c89932dc-52e9-4c51-be07-9ff8f9df75bb.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/fc7eec03-92ac-4ff3-b63e-93931052cf09.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/f64649f6-2e89-42ee-88ef-9c96d936d52d.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/d5dca664-a3e4-4f3d-b65f-0dfd4e6fa004.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/2a30beac-2104-4db3-9a11-242f374ad70e.jpeg?im_w=1440",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/bc2f9062-fa90-457b-a203-f3c1ca0848c7.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-850851760579828743/original/9314e121-da8a-405a-9e0f-7f68e5df0d9a.jpeg?im_w=1440" ]
+    },
+    {
+      "id": 8,
+      "isFavorited": false,
+      "title": "Modern Manor",
+      "rating": 5,
+      "location": "New York",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 1850,
+      "amenities": ["Wifi •", " Kitchen •", " Pool •", " Tennis Court •", " Gym"],
+      "category":  "Pool",
+      "info": "Pool side",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/50b3bb6c-781d-468f-83a6-f3327b45c7d8.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/a289d56c-73de-4f0c-b700-857e289dc0ed.jpeg?im_w=1440",
+       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/c163c13d-ef41-4771-96ec-c86b75f7fcce.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/760889bb-1333-42dc-8db7-9cdd6d20c8e7.jpeg?im_w=1440",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/2ec00227-7af9-46d2-b109-a30b52cc8cc2.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/c845844d-ee0f-49a4-99f8-0e3d36c6e5be.jpeg?im_w=1440",
+         "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/0913842f-ca89-4927-aa3d-5e9c5b012be1.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/cf7c5a09-d42d-4ace-9813-f10e329732b3.jpeg?im_w=1440",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/131221b7-1600-45cd-9f54-8bb63eb20e93.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/bea78266-d17e-420e-be1f-556e9012c7cc.jpeg?im_w=1440",
+          "https://a0.muscache.com/im/pictures/prohost-api/Hosting-734772290870884001/original/5ee6f16d-63b5-4347-a4af-01ab92448371.jpeg?im_w=1440" ]
+    },
+    {
+      "id": 9,
+      "isFavorited": false,
+      "title": "LakeFront Estate",
+      "rating": 4.5,
+      "location": "Canada",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 815,
+      "amenities": ["Wifi •", " Kitchen •", " LakeFront •", " Property Cameras •", " Pool"],
+      "category": "Mansion",
+      "info": "Pool side",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/61735106/5c7f2798_original.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/e7584319-789d-45a5-ada8-a29e0e3dd6be.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/d395028c-4262-41d1-b96e-e841c0916031.jpg?im_w=1440", 
+      "https://a0.muscache.com/im/pictures/25da18c5-e40f-46e4-b8d1-c15c6694cce4.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/miso/Hosting-4924375/original/56e14a5f-9cc4-43b1-b4bb-219fc86d99d4.jpeg?im_w=1440", "https://a0.muscache.com/im/pictures/8c2f5506-b2c6-4d0e-baa9-ce364eee59de.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/a115f940-4d3a-45fb-a257-12adc57d7817.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/0127592a-5fd5-4539-802e-91da00013dab.jpg?im_w=1440", 
+      "https://a0.muscache.com/im/pictures/miso/Hosting-4924375/original/55e7e92d-8538-4a20-b002-ce129488bb53.jpeg?im_w=1440"
+
+
+
+      ]
+    },
+    {
+      "id": 10,
+      "isFavorited": false,
+      "title": "Historian Palace",
+      "rating": 4.9,
+      "location": "Kentucky",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 890,
+      "amenities": ["Wifi •", " Kitchen •", " Hot tub •", " Indoor Pool •", " Elevator •", " Gym"],
+      "category": "Mansion",
+      "info": "Pool side",
+      "imgSrc": [ "https://a0.muscache.com/im/pictures/miso/Hosting-47051400/original/2b9c593f-2027-4f97-a1f7-6eabd4605b5c.jpeg?im_w=1200", 
+      "https://a0.muscache.com/im/pictures/11ced846-0a9f-4057-9a20-6d2c9dba471a.jpg?im_w=720", "https://a0.muscache.com/im/pictures/298f4683-1fbe-48bd-a7a7-5458c53388c0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/e9a58203-5a49-42c7-aa72-f5be41a3b3d3.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/d779ca4e-0182-4ad9-a8a2-8f4916a222f9.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/960a3a8a-e16a-416d-af3c-eabda3462707.jpg?im_w=720", "https://a0.muscache.com/im/pictures/5036d2c9-d735-4692-9da1-decfcc6862d7.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/be58e6db-adad-4185-85b1-50843acec86d.jpg?im_w=720", "https://a0.muscache.com/im/pictures/280bf75d-0aac-491c-9fb4-4259cda02ecf.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/c1e81c50-a15a-460e-8b63-f8139623f710.jpg?im_w=720", "https://a0.muscache.com/im/pictures/18ea0386-2219-4e55-bd5c-61801c07b25c.jpg?im_w=1200"
+      ]
+    },
+    {
+      "id": 11,
+      "isFavorited": false,
+      "title": "Eco Cottage",
+      "rating": 4.7,
+      "location": "Colorado",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 255,
+      "amenities": ["Wifi •", " Kitchen •", " Electronics •", " Balcony •", " HDTV/Streaming-Service •", " Games"],
+      "category": "Skiing",
+      "info": "Pool side",
+      "imgSrc": [ "https://a0.muscache.com/im/pictures/28189930/27958958_original.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/95174012/73f79bf3_original.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/28497152/185ae31e_original.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/28497164/432de5d3_original.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/82040227/981c04e4_original.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/36079591/6d098317_original.jpg?im_w=1440",
+       "https://a0.muscache.com/im/pictures/82039848/1c2a0e4c_original.jpg?im_w=1440", "https://a0.muscache.com/im/pictures/43924607/9c466fcf_original.jpg?im_w=1440","https://a0.muscache.com/im/pictures/46211541/5f5b7e19_original.jpg?im_w=1440",
+       "https://a0.muscache.com/im/pictures/27481243/2df1b4da_original.jpg?im_w=1440","https://a0.muscache.com/im/pictures/42332432/e079d433_original.jpg?im_w=1440","https://a0.muscache.com/im/pictures/36079606/f95653a1_original.jpg?im_w=1440",
+       "https://a0.muscache.com/im/pictures/55623598/ac88c153_original.jpg?im_w=1440"
+       ]
+    },
+    {
+      "id": 12,
+      "isFavorited": false,
+      "title": "Modern Chefs Kitchen",
+      "rating": 4.8,
+      "location": "Vermont",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 1500,
+      "amenities": ["Wifi •", " Chef Kitchen •", " Pool •", " Balcony •", " Hot tub •", " Suana"],
+      "category": "Chefs Kitchen",
+      "info": "Pool side",
+      "imgSrc": [
+      "https://a0.muscache.com/im/pictures/0561881c-8d58-4ae6-95a0-f21b5d4e981f.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/1400c682-08d3-4d9a-bf4e-f5cbae6fbdb3.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/0056a436-d6c3-4412-a5b1-4349a2ce6d1d.jpg?im_w=720", "https://a0.muscache.com/im/pictures/2e94f7e8-150b-44a8-a3a3-f132882b23a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/04f5fb54-94ec-423a-bce3-165dc5676d66.jpg?im_w=720", "https://a0.muscache.com/im/pictures/f5f8da36-ff3b-405c-82d9-7d6aed42d247.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/14cda58a-58d2-4478-aa28-c782cde33cec.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/acf00083-13b8-4f7f-b39e-f0eb08e443df.jpg?im_w=720", 
+      "https://a0.muscache.com/im/pictures/ccc29cb4-137a-45cd-b756-1ad58a3b57cb.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/1b655916-84a6-4aab-a823-2446d5864a58.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/417de08f-2c2d-46af-bb47-f5fa3b0051c3.jpg?im_w=720"
+                 ]
+    },
+    {
+      "id": 13,
+      "isFavorited": false,
+      "title": "Countryside Manor",
+      "rating": 4.8,
+      "location": "New Jersey",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 1120,
+      "amenities": ["Wifi •", " Kitchen •", " Pool •", " Garden View •", " Fire pit •", " Outdoor Furniture •", " Gym •", " Self Check-In"],
+      "category": "Country",
+      "info": "Pool side",
+      "imgSrc": ["https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/1041bf00-966b-4f53-ac7c-a590bd99e99b.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/acdd7bad-3f19-420b-bc5f-3c1b0a5e02b0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/3bdf5c3e-6536-4154-b14a-df7df5a86009.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/4afad41f-9003-426a-9b29-3a0a84bc62e9.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/6691bfd7-959c-4080-b749-86d9dadbb516.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/a6a73d12-0d01-431e-91d3-4b2188a21a3e.jpeg?im_w=1200",
+       "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/14462839-61cc-4460-91bd-68e4446bd4d2.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/4548ad55-a7b8-42e1-9782-acb8b918d623.jpeg?im_w=720",
+       "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/59374724-c2c3-427d-b575-fb006d981bd7.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/b169e2f7-9082-40f7-bee2-ea64588892c2.jpeg?im_w=1200",
+       "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/1a7812a6-70cb-45e9-a88e-175fa68c976d.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/fcd1f798-5628-4b10-99b7-e4ea9659a4c2.jpeg?im_w=1200",
+       "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/d8af28d7-9e1f-476a-8dca-74a66a80e166.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/50a4c18c-2747-4e1f-86de-4c382a181e79.jpg?im_w=1440", 
+       "https://a0.muscache.com/im/pictures/miso/Hosting-46195454/original/5442e619-3b20-4a80-a765-e9fc367d9f2b.jpeg?im_w=1440"
+
+
+      ]
+    },
+    {
+      "id": 14,
+      "isFavorited": false,
+      "title": "Mediterranean Villa",
+      "rating": 4.9,
+      "location": "Bali",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 650,
+      "amenities": ["Wifi •", " Kitchen •", " Beach •", " Pool •", " Balcony"],
+      "category": "Tropical",
+      "info": "Pool side",
+      "imgSrc": [ "https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-1.jpg.webp","https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-2.jpg.webp",
+       "https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-4.jpg.webp", "https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-6.jpg.webp", 
+       "https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-7.jpg.webp", "https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-8.jpg.webp",
+       "https://www.balirealty.com/wp-content/uploads/2023/08/Umalas-Villa-2407-10.jpg.webp"
+
+          
+              ]
+    },
+    {
+      "id": 15,
+      "isFavorited": false,
+      "title": "Mirrored Desert Fortress",
+      "rating": 4.9,
+      "location": "Mexico",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 450,
+      "amenities": ["Wifi •", " Kitchen •", " Private pool •", " Balcony •", " Outside Shower •", " Desert View"],
+      "category": "Desert",
+      "info": "Pool side",
+      "imgSrc": [ "https://a0.muscache.com/im/pictures/miso/Hosting-43240473/original/5e912b77-535f-4c26-8c93-ad5cecdea137.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43240473/original/22814953-545b-4255-b9bd-a5dd68d43232.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-43240473/original/e5d00fea-1ed8-40da-8dca-4decde719f5e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43240473/original/6c4481dc-f3e9-4418-83c6-a87a2229f903.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-43240473/original/a81a0348-cfb8-49d5-bffb-c7a906ac41d3.jpeg?im_w=1440"
+              ]
+    }, 
+    {
+      "id": 16,
+      "isFavorited": false,
+      "title": "Bed & Breakfast",
+      "rating": 4.6,
+      "location": "North Carolina",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 700,
+      "amenities": ["Wifi •", " Kitchen •", " Breakfast •", " Balcony •", " Beach Distance"],
+      "category": "Bed and Breakfast",
+      "info": "Pool side",
+      "imgSrc": [ 
+        "https://a0.muscache.com/im/pictures/miso/Hosting-733329818038903479/original/723f5bf0-967e-482d-893e-8f394c742041.png?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-733329818038903479/original/63a60e6b-cdf8-4d7c-80b4-4c4f7688e7b0.png?im_w=720", 
+        "https://a0.muscache.com/im/pictures/miso/Hosting-733329818038903479/original/e3163a03-e32c-4d35-a48a-6c1cc3a65d2e.png?im_w=720", 
+        "https://a0.muscache.com/im/pictures/miso/Hosting-733329818038903479/original/b59dd4ac-ee27-472d-bf6b-ff57064da25b.png?im_w=720", 
+        "https://a0.muscache.com/im/pictures/miso/Hosting-733329818038903479/original/56944eff-3732-441f-a14e-0041d140d9f9.png?im_w=720"
+
+                 ]
+    },
+    {
+      "id": 17,
+      "isFavorited": false,
+      "title": "Elegant FarmHouse",
+      "rating": 4.4,
+      "location": "Connecticut",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 350,
+      "amenities": ["Wifi •", " Kitchen •", " Barn •", " Pool •", " Country View •", " Lake View •", " Gym"],
+      "category": "Barn",
+      "info": "Pool side",
+      "imgSrc": [ 
+    "https://a0.muscache.com/im/pictures/miso/Hosting-6284044/original/577c848c-c833-44eb-a55f-0ffd99421671.jpeg?im_w=480",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-6284044/original/2ef2e940-e239-4570-9355-ed92ad984258.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-6284044/original/8f856864-74b0-4adc-85c4-f4ffef0df1f1.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-6284044/original/7768132d-72c7-4cfb-8d03-c29e987a9a64.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/miso/Hosting-6284044/original/c1d573c8-32ce-4d6d-9dbf-2c7dae7ec332.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/f3dcdf9d-7ecd-425a-85e2-e8c8d307372f.jpg?im_w=720",
+    "https://a0.muscache.com/im/pictures/75affe29-3a4c-4dbc-b8fa-df2a26769af0.jpg?im_w=720"
+
+                 ]
+    },
+    {
+      "id": 18,
+      "isFavorited": false,
+      "title": "Luxurious Dome",
+      "rating": 4.9,
+      "location": "Canada",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 500,
+      "amenities": ["Wifi •", " Kitchen •", " Mountain View •", " Hot tub •", " Lake View •", " Balcony •", " Valley View"],
+      "category": "Dome",
+      "info": "Pool side",
+      "imgSrc": [ 
+     "https://a0.muscache.com/im/pictures/miso/Hosting-912388503840502900/original/1b41cbd4-713c-4fa9-8650-c7363cf3eb77.jpeg?im_w=1200",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/59d73399-02ce-439d-b307-5b1b775e0332.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/a588943e-7c29-4fe4-89ce-5b76e421a5ba.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/2d6ec4b0-26f2-4dab-9341-9af5285cc8c4.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/b50b1ec0-ef7b-4d76-b882-f72cc12a2597.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/b687f5e7-dc09-4d02-8b3c-c8125bf99273.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/9249861c-8f81-447d-91e7-a3ae99d4ddd0.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/f4d27e7a-294b-41a0-a421-c24d8eb340dc.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-711861141796137269/original/99f30a25-e765-49de-82bb-5ee57d712106.jpeg?im_w=1440",
+     "https://a0.muscache.com/im/pictures/miso/Hosting-912388503840502900/original/e579943c-e65c-483c-ab48-8e0999fd4227.jpeg?im_w=1440"
+                 ]
+    },
+    {
+      "id": 19,
+      "isFavorited": false,
+      "title": "Modern Coast Villa",
+      "rating": 4.9,
+      "location": "Italy",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 825,
+      "amenities": ["Wifi •", " Kitchen •", " Beach •", " Pool •", " Balcony"],
+      "category": "Iconic Cities",
+      "info": "Pool side",
+      "imgSrc": [ 
+           "https://a0.muscache.com/im/pictures/85511854-91c6-4101-9da7-bf924808a4d0.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/84e929cf-9467-45fc-965d-19f03f5fb1be.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/0de0ff2c-7b5d-4688-a3e4-94b8a2fa9853.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/7f6c011e-03de-4bcf-9c8a-8576e89eb1ae.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/6690e977-f947-4e3d-b350-562b17940329.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/cbd0412b-326a-418e-825d-e18ffcc6db9f.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/3d796193-fada-474b-b5a5-02e7f180a094.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/03a57553-3c6c-420e-adfa-a7bfad176395.jpg?im_w=720"
+ ]
+    },
+    {
+      "id": 20,
+      "isFavorited": false,
+      "title": "Mini Private Sanction",
+      "rating": 4.8,
+      "location": "Alabama",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 50,
+      "amenities": ["Wifi •", " Kitchen •", " Fire pit •", " Woods View •", " Pets Allowed"],
+      "category": "Camping",
+      "info": "Pool side",
+      "imgSrc": [ 
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/36b349ea-7bfe-461d-913f-724ef04f5c59.jpeg?im_w=1200",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/fd4f10cc-1f58-4619-a65a-6e21293b0088.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/8475fd97-168b-4fcd-a9b1-aa9717f7cba0.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/86550873-007e-4c89-af0a-e1351aa3825f.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/157b2ee9-0c6e-491b-b9a6-00e6ca7b7855.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/b89e4192-39ab-44c5-99a7-3d4038c19254.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-707425739344011429/original/6a5fe672-80d2-4182-930d-49e7edb461ea.jpeg?im_w=720"
+ ]
+    },
+    {
+      "id": 21,
+      "isFavorited": false,
+      "title": "Luxurious Mansion",
+      "rating": 4.8,
+      "location": "Texas",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 1050,
+      "amenities": ["Wifi •", " Kitchen •", " Gym •", " Games •", " Private pool •", " Balcony •", " Movie Theater"],
+      "category": "Mansion",
+      "info": "Pool side",
+      "imgSrc": [ 
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/716a299f-9640-4aaa-9588-100e1dc519c3.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/86679113-d361-4c36-b9f3-93f237d1727a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/dbc60412-1b57-48d2-a7cd-82f0fcdd0bc3.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/2dc8a780-fb8a-4f5a-977d-dce6632189d3.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/373a057c-e282-4970-8a4b-7f171f120487.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/dc9c480c-0731-4758-8f28-0c190d03a54e.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/cae9629e-cda9-4a4d-9df9-2b3c49e9c11e.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/91a1d2de-cf65-4d7f-bcc6-6f4b91410fb2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/9f70c280-1044-467b-ae3c-bb2eba71a32e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-613828832469967166/original/4c61cb63-447d-488c-b27c-22f1d5ea852b.jpeg?im_w=720"
+                ]
+    },
+    {
+      "id": 22,
+      "isFavorited": false,
+      "title": "Lakefront Castle",
+      "rating": 4.9,
+      "location": "New York",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 1050,
+      "amenities": ["Wifi •", " Double Kitchen •", " Games •", " Fire pit •", " Lake view •", " Suana •", " Lounge"],
+      "category": "Lakefront",
+      "info": "Pool side",
+      "imgSrc": [ 
+         "https://a0.muscache.com/im/pictures/72066d46-fa14-4982-9fb9-f75ad96ac6e2.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/1d1269e2-9ee7-4907-a550-6ccb93b63f73.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/50bc9241-bbe4-410b-89d4-2e437202d91e.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/0f440abf-f06d-4295-8c9f-998da66b2ffc.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/1487904f-8d14-4b58-b924-081240ddc797.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/8475ac6c-2bc3-45bf-85ff-9fe49290d53b.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/cefc0228-a4ea-456d-916f-29ffe472f267.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/08db96bc-9b97-448b-9603-2333fcbaa975.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/555ff032-7eb9-4b24-936f-a14ee18591b8.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/d5217194-f635-4f31-8087-06747068c23c.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/4b8d6877-e0b4-4eec-8c66-21fb473c0316.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/fcf13b93-bd0f-4040-8b07-201254a4d973.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/ba33428e-aac3-4657-86e8-17c363315077.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/a8923997-d84d-4770-a662-76f0d27e2b65.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/eac17790-b2a7-44e2-a94d-dae17c1c0e5d.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/5a1dba54-3e9f-4675-86f7-7a20cab4c886.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/68d4d5e9-e322-416d-9b76-8733c0ca4a00.jpg?im_w=1200"
+]
+    },
+    {
+      "id": 23,
+      "isFavorited": false,
+      "title": "Lakefront Escape",
+      "rating": 4.9,
+      "location": "Pennsylvania",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 560,
+      "amenities": ["Wifi •", " Double Kitchen •", " Games •", " Fire pit •", " Lake view •", " Hot tub •", " Lounge"],
+      "category": "Lakefront",
+      "info": "Pool side",
+      "imgSrc": [ 
+         
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/0a19703d-2938-4031-a1a7-6880d8788f1a.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/2de15c4f-4b4f-4279-b32d-de8d61793bc8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/72fb0c73-b17c-4a68-8613-ff7a72267b59.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/604a2247-8446-4636-a1ba-b8d6e4b95746.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/06a7c4c8-8745-44c2-9f91-f23a4b546669.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/17ebb4e6-c0dc-4d61-bd12-7304a2d2c58f.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/0055832b-7c54-4d3f-95ff-14ac13d86d8c.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/bf173a1d-b8b0-4df1-9553-771176c39ad8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/bad3e69b-df86-4d74-b079-77c475b94cc3.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/7549595c-f0e3-4373-993f-30865f3e95f3.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/1eecf68d-4308-42bc-b507-0b94601b2239.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/f84a60a1-68cb-40ed-b62e-2358556da59f.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/d6148777-b0bc-4f4b-8ad8-2a8551c3052e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/97dda024-d587-4b4a-9c79-2392369b2b0a.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-878155319710563213/original/ca53c7a3-e28e-49b5-af14-bff82e17e5bd.jpeg?im_w=1200"
+           
+]
+    },
+    {
+      "id": 24,
+      "isFavorited": false,
+      "title": "Lakefront Villa",
+      "rating": 4.9,
+      "location": "Pennsylvania",
+      "size": "16+ Guests • 12 bed • 3.5 bath ",
+      "price": 1350,
+      "amenities": ["Wifi •", " Kitchen •", " Games •", " Fire pit •", " Lake view •", " Hot tub •", " Lounge"],
+      "category": "Lakefront",
+      "info": "Accommodate up to 10 cars comfortably in the driveway. Immerse yourself in the serene surroundings with lake activities including swimming and late-night fire pits. Feel free to use the kayaks available: two for adults and two for children",
+      "imgSrc": [ 
+         "https://a0.muscache.com/im/pictures/dc95c204-8be3-4b8d-8a88-251d1f6381af.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/a68d2ced-1c71-4026-bf9c-9bcaab507ee4.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/b4656490-d95c-4ccc-94f1-c4e740d1abaa.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/a2b2b9df-0b58-4a48-801c-f0891c731939.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/92d3d3a6-9ee3-43fd-9389-71fa63792654.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/cf857f04-bbe8-40fa-b4c7-5db0eb4b8375.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/f6fa207a-ea89-4e57-af23-0f0952111a85.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/fb2200d7-a6fa-4892-98cc-d2946c6bec70.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-24726170/original/3cc95652-554b-4603-bb33-133df22d344a.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/206be8b7-5c78-42d0-b68e-47dc2a7a9063.jpg?im_w=720"
+     
+]
+    },
+    {
+      "id": 25,
+      "isFavorited": false,
+      "title": "Countryside Escape",
+      "rating": 5,
+      "location": "New York",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 600,
+      "amenities": ["Wifi •", " Kitchen •", " Fire pit •", " Country view •", " Mountain view •", " Hot tub •", " Sun Lounge"],
+      "category": "Country",
+      "info": "Pool side",
+      "imgSrc": [ 
+        
+         "https://a0.muscache.com/im/pictures/86cac25c-3993-4ab1-a259-228b170776e6.jpg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-1266564/original/5b2aaadf-0dc7-4e07-9a51-68a98b652b77.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/0fe38a49-9c64-4699-96fc-def0a09cae52.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-1266564/original/432371fc-28b2-4849-848a-b3f69a566a75.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/4ef67c8c-74d0-4a6e-9857-a221697023e0.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-1266564/original/221254b3-4888-436c-8b18-5f1466b6d40f.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-1266564/original/7a2785ab-cc4e-498c-b9f9-b75cfcc940b4.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/73007f9b-208e-4d0b-95c8-0b37f572eda2.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/a4072367-904d-4874-8171-ae88c0c7239d.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-1266564/original/87607866-3fb5-4e04-9a7f-effe85f85e0d.jpeg?im_w=720"
+     
+]
+    },
+    {
+      "id": 26,
+      "isFavorited": false,
+      "title": "Modern Bay Villa",
+      "rating": 5,
+      "location": "Barbados",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 150,
+      "amenities": ["Wifi •", " Kitchen •", " Beach •", " Dock •", " Ocean view"],
+      "category": "Tropical",
+      "info": "Pool side",
+      "imgSrc": [
+
+        "https://a0.muscache.com/im/pictures/37ad28e7-9558-4a47-95f6-b2bad070eb36.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/8dd1b9ef-0b5d-4731-857d-c593b460b73b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/a27681dc-ed54-46b3-8f7b-0af54dc0aaf8.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/d7b3a5c9-62f1-4dfe-8150-a691d686edfc.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/d73228f4-4343-417b-80ee-3d7049c93203.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 27,
+      "isFavorited": false,
+      "title": "Cosmic Glamp Cottage",
+      "rating": 4.7,
+      "location": "Canada",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 200,
+      "amenities": [ "Kitchen •", " Fire pit •", " Suana •", " Mountain view •", " Country view"],
+      "category": "Camping",
+      "info": "Pool side",
+      "imgSrc": [
+
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/cdf1950a-bfd5-4157-8c8a-6d26b0f81c12.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/64d2980f-f1c9-4325-93a1-066d398f8af6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/4ade7d52-501b-4058-8c73-7a28b58e5638.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/4c5f3771-8538-4096-b756-05d903f86f9e.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/6df78465-d620-4fd7-a3bd-25f1881b92ad.jpeg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/5e96170e-d7d3-4ba4-92a7-bdf1072e8675.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-51833441/original/f45c0792-0891-47a1-92f9-f80ffa8ec8c8.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 28,
+      "isFavorited": false,
+      "title": "Luxury Bank Barn",
+      "rating": 4.6,
+      "location": "New Hampshire",
+      "size": "1700 sqft • 2 bed • 1 bath ",
+      "price": 205,
+      "amenities": [ "Kitchen •", " Fire pit •", " Pool •", " Outdoor Patio •", " Mountain view •", " Country view"],
+      "category": "Barn",
+      "info": "Pool side",
+      "imgSrc": [
+           "https://a0.muscache.com/im/pictures/160cc0ed-166f-45d3-82b2-5827642b54dc.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/6f0f729e-7617-4552-9439-3b65bad29b71.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/e7c3d965-3d4a-4f26-a3e3-8011d0fe9a0e.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/19f9607b-b421-46d4-ab4f-53ba3b815569.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/cae4da0b-b9ad-4249-87ed-8dda0747905b.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/ff1e6e47-6790-4b52-b111-bb2fdbbfc790.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/8e2fa5da-3aee-42f1-b19c-eac84424ef49.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/7809843d-1664-4da0-b378-56f904bc584d.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/a2370eac-7202-4c70-adee-2f60aa028e68.jpg?im_w=720"
+
+      ]
+    },
+    {
+      "id": 29,
+      "isFavorited": false,
+      "title": "Hidden Cottage",
+      "rating": 4.8,
+      "location": "Colorado",
+      "size": "4 guests • 3 bed • 2 bath ",
+      "price": 295,
+      "amenities": [ "Kitchen •", " Air conditioning •", " Outdoor Patio •", " Mountain view •", " Desert view"],
+      "category": "Cave",
+      "info": "Pool side",
+      "imgSrc": [
+           "https://a0.muscache.com/im/pictures/02a6b6df-bb89-4721-ba7f-c703d94a99d4.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/794e91e5-32f5-4605-932f-0622d65c0cda.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/9e30417a-672e-4fd2-8510-d64a5a081bc6.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/4e989c54-4927-497b-a25b-9dfd365a9d18.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/802bc522-f1ee-414d-b224-d8fccf45dd87.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/7d724ed1-5a5e-4822-9363-22c30a934fd9.jpg?im_w=720"
+      ]
+    },
+    {
+      "id": 30,
+      "isFavorited": false,
+      "title": "Mini Desert Villa",
+      "rating": 4.5,
+      "location": "New Mexico",
+      "size": "4 guests • 2 bed • 1 bath ",
+      "price": 135,
+      "amenities": [ "Kitchen •", " Air conditioning •", " Outdoor Patio •", " Desert view"],
+      "category": "Desert",
+      "info": "Pool side",
+      "imgSrc": [
+           "https://a0.muscache.com/im/pictures/128f5f95-cc29-4750-baf7-d1770ee83d93.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/78f927fc-a22a-47ab-bfd9-307fbb683656.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/b7b20b79-f645-4508-bf60-11cfcfcc85b8.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/f430bf9a-1c9c-4a20-b2da-f48cceee7727.jpg?im_w=720",
+           "https://a0.muscache.com/im/pictures/660d2271-0de9-4b9e-b245-eb1402938cd1.jpg?im_w=1200",
+           "https://a0.muscache.com/im/pictures/miso/Hosting-39537788/original/bc07fc9c-8ea5-4b6a-b55c-f10d1f9ba0f7.jpeg?im_w=720"
+      ]
+    },
+    {
+      "id": 31,
+      "isFavorited": false,
+      "title": "City Treasure",
+      "rating": 4.8,
+      "location": "Canada",
+      "size": " 3 guests • 2 bed • 1 bath ",
+      "price": 135,
+      "amenities": [ "Kitchen •", " Air conditioning •", " City view •", " Wifi •", " Location"],
+      "category": "Iconic Cities",
+      "info": "Pool side",
+      "imgSrc": [
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/99f4d83b-7de8-467a-be43-4a5ddd184b24.jpeg?im_w=1200",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/1a2cd065-f0f7-475b-8f6e-2edafe503cc2.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/e6bfdcec-ec38-41a8-ba08-59254454d877.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/662181dc-0a23-42c6-8792-b45c6c764610.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/b7bda89f-6423-42df-accd-e4cf6b0cb532.jpeg?im_w=1200",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/61d32a9d-7ee7-4fb7-950c-ac976c5f3b01.jpeg?im_w=720",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-855265289472667062/original/8e4b1481-02de-449d-b11f-ed534dce8142.jpeg?im_w=1200"
+      ]
+    },
+    {
+      "id": 32,
+      "isFavorited": false,
+      "title": "Botique Bed & Breakfast",
+      "rating": 4.7,
+      "location": "Arizona",
+      "size": " 2 guests • 2 bed • 1 bath ",
+      "price": 265,
+      "amenities": [ "Outdoor Dinning •", " Kitchen •", " Air conditioning •", " Garden view •", " Wifi •", " Fire pit"],
+      "category": "Bed and Breakfast",
+      "info": "Pool side",
+      "imgSrc": [
+         "https://a0.muscache.com/im/pictures/miso/Hosting-656457677955709682/original/a87606c4-65ae-484a-922c-aa5f9b501fd4.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-656457677955709682/original/fbcdf73d-3e1b-44b9-80c6-3c57b4bb0ba9.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-656457677955709682/original/61da6d6e-1c68-432a-b104-4f993f8878f0.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-656457677955709682/original/cf366d92-a16b-4151-bddb-54bdba89a00d.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-656457677955709682/original/daea8978-4a3a-443b-bee4-5946c9f6b744.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-656457677955709682/original/4f6a65e6-3a1d-4f47-b78b-64b73e9fcfcd.jpeg?im_w=720"
+         
+      ]
+    },
+    {
+      "id": 33,
+      "isFavorited": false,
+      "title": "Luxury Dome",
+      "rating": 5,
+      "location": "Canada",
+      "size": " 4 guests • 2 bed • 1 bath ",
+      "price": 215,
+      "amenities": [  "Kitchen •", " Air conditioning •", " Ocean view •", " Wifi •", " River view"],
+      "category": "Dome",
+      "info": "Pool side",
+      "imgSrc": [
+         "https://a0.muscache.com/im/pictures/miso/Hosting-44162998/original/64cac854-0a02-41e7-91e0-1f3fa63c9e94.jpeg?im_w=1200",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-44162998/original/2e9e9ae9-2949-47c8-bfa3-6279f53dc01c.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/6f38250a-f75e-4deb-a049-ebc6beb67def.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/miso/Hosting-44162998/original/46e63506-3669-48d6-b1cb-4d69068be188.jpeg?im_w=720",
+         "https://a0.muscache.com/im/pictures/b65d37a1-2906-4717-bd13-53ef5fe9534b.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/6f38250a-f75e-4deb-a049-ebc6beb67def.jpg?im_w=720",
+         "https://a0.muscache.com/im/pictures/fd205075-5a9f-446c-9ad1-59d084cc2748.jpg?im_w=720"
+         
+      ]
+    },
+    {
+      "id": 34,
+      "isFavorited": false,
+      "title": "Heavens Kitchen",
+      "rating": 4.7,
+      "location": "Michigan",
+      "size": " 10 guests • 7 bed • 3 bath ",
+      "price": 692,
+      "amenities": [  "Kitchen •", " Pool •", " Garden view •", " Wifi •", " Fire pit"],
+      "category": "Chefs Kitchen",
+      "info": "Pool side",
+      "imgSrc": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/f8e1973f-1cfe-4be0-8edc-63ce3f966081.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/30bb4c02-3caa-4a67-86b1-fe820a8b79c3.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/6ff37b1f-a4fa-403d-bd31-f0eed2f44c82.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/21da59ae-2f7b-472e-9092-5911fdad8c3e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/16b72cdd-df04-4716-a010-af400973e551.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/2d38e360-ff4a-4a27-881c-d85e4a63cfed.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/63134812-4c81-4725-9f00-9517ad62bf90.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/7eae3b9a-4692-4a5d-b6ff-1d5289ea0f2f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-564037361632840406/original/2274a7fe-a94e-4235-9ebf-ffb5def038f8.png?im_w=720"
+      ]
+    }
+
+
+
+  
+  
+  
+  ]
+
+
+
+
+
+
+
+

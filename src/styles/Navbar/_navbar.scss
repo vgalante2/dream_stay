@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+
+.logo{
+
+    height: 40px;
+    width: auto;
+    padding: 20px;
+
+    @media(max-width: 600px) {
+      height: 30px;
+      width: auto;
+      padding-right: 0;
+      padding-left: 3px;
+    }
+}
+
+
+.navbar {
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-direction: row;
+border-bottom: thin solid rgb(230, 230, 230);
+padding-bottom: 5px;
+
+
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(222, 222, 222);
+    border-radius: 20px;
+    height: 45px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  
+    @media(max-width: 600px) {
+     display: none;
+     
+    }
+
+    .btn {
+      background-color: white;
+      border: none;
+      border-right: 1px solid rgb(222, 222, 222);  /* Add this line */
+      border-radius: 20px;
+      font-size: 1rem;
+      font-family: 'Belanosima', sans-serif;
+      padding: 10px 20px;  /* Add this line, adjust values as needed */
+
+      &:hover {
+        background-color: $red;
+        
+      }
+    }
+  
+    .btn.anyguest {
+      border-right: none; 
+    }
+  }
+  
+
+  .search-btn-section {
+    padding: 5px;
+
+  }
+
+ 
+  .search-btn {
+    color: #FE5257;
+      border: #FE5257 solid 2px;
+      background-color: white;
+      border-radius: 50px;
+      
+      padding: 10px 15px;  /* Add this line, adjust values as needed */
+
+
+      &:hover {
+        background-color: #FE5257;
+        color: white;
+      }
+  }
+  
+  
+
+.navbar-items {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 20px;
+padding: 10px;
+
+}
+
+.item-1, .item-2, .item-3 {
+
+
+  &:hover {
+    background-color: rgb(242, 242, 242);
+    border-radius: 3rem;
+    
+  }
+
+  @media(max-width: 600px) {
+    padding: 5px;
+  }
+  
+}
+
+.item-1 {
+
+  @media(max-width: 767px) {
+    visibility: hidden;
+  }
+}
+
+
+.item-3 {
+ position: relative;
+ top: 2.4px;
+
+}
+
+
+
+.globe {
+  color: $red;
+
+  
+}
+
+
+
+li {
+display: flex;
+font-family: 'Belanosima', sans-serif;
+font-size: 1rem;
+padding: 10px;
+
+
+
+
+
+.item-1 {
+    color: $red;
+
+    @media(max-width:  600px) {
+     font-size: 5px;
+     width: 110px;
+    padding: 0;
+    }
+}
+
+.account {
+    color: $red;
+}
+
+.region {
+    color: #FE5257;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+}
+
+
+
+.dropdown-content  {
+    background-color: rgb(255, 255, 255);
+    border: thin solid rgba(225, 225, 225, 0.9);
+    border-radius: 20px;
+   position: absolute;
+   top: 89px;
+  right: 40%;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  z-index: 2;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+ 
+
+.dropdown-content.anywhere {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+   position: absolute;
+   top: 89px;
+  right: 40%;
+  height: 200px;
+  width: 400px;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* creates a grid with three columns of equal width */
+  grid-template-rows: auto;
+  gap: 20px;
+
+
+
+ 
+
+.drop-btn.america {
+    background-image: url(../../public/america.png);
+    background-size: cover;  /* This will make sure the image covers the entire button */
+    background-repeat: no-repeat;  /* This will prevent the image from repeating */
+}
+
+.drop-btn.flexible {
+    background-image: url(../../public/flexible.jpeg);
+    background-size: cover;  /* This will make sure the image covers the entire button */
+    background-repeat: no-repeat;  /* This will prevent the image from repeating */
+}
+
+.drop-btn.caribbean {
+    background-image: url(../../public/caribbean.png);
+    background-size: cover;  /* This will make sure the image covers the entire button */
+    background-repeat: no-repeat;
+}
+
+.drop-btn.bali {
+    background-image: url(../../public/bali.png);
+    background-size: cover;  /* This will make sure the image covers the entire button */
+    background-repeat: no-repeat;
+    
+}
+
+.drop-btn.europe {
+    background-image: url(../../public/europe.png);
+    background-size: cover;  /* This will make sure the image covers the entire button */
+    background-repeat: no-repeat;
+    
+}
+
+.drop-btn.canada {
+    background-image: url(../../public/canada.png);
+    background-size: cover;  /* This will make sure the image covers the entire button */
+    background-repeat: no-repeat;
+    
+}
+
+
+}
+
+
+
+
+
+
+

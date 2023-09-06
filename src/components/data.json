@@ -1,0 +1,125 @@
+
+
+  [
+   
+    {
+      "index": 0,
+      "class": "lake item",
+      "img": "lake.png",
+      "alt": "lake icon",
+      "category": "Lakefront",
+      "href": "/lakefront"
+    },
+    {
+      "index": 1,
+      "class": "pool item",
+      "img": "pool.png",
+      "alt": "pool icon",
+      "category": "Pool",
+      "href": "/pool"
+    },
+    {
+      "index": 2,
+       "class": "mansion item",
+       "img": "mansion.png",
+       "alt": "mansion icon",
+       "category": "Mansion",
+       "href": "/mansion"
+    },
+    {
+      "index": 3,
+     "class": "country item",
+     "img": "country.png",
+     "alt": "country icon",
+     "category": "Country",
+     "href": "/country"
+    },
+    {"index": 4,
+      "class": "tent item",
+      "img": "tent.png",
+      "alt": "country icon",
+      "category": "Camping",
+      "href": "/camping"
+    },
+    {
+      "index": 5,
+        "class": "tropical item",
+        "img": "island.png",
+        "alt": "tropical icon",
+        "category": "Tropical",
+        "href": "/tropical"
+    },
+    {
+      "index": 6,
+      "class": "ski item",
+      "img": "alpine.png",
+      "alt": "ski icon",
+      "category": "Skiing",
+      "href": "/skiing"
+  },
+  {
+    "index": 7,
+    "class": "barn item",
+    "img": "barn.png",
+    "alt": "barn icon",
+    "category": "Barn",
+    "href": "/barn"
+},
+{
+  "index": 8,
+  "class": "dome item",
+  "img": "dome.png",
+  "alt": "dome icon",
+  "category": "Dome",
+  "href": "/dome"
+},
+{
+  "index": 9,
+  "class": "cave item",
+  "img": "cave.png",
+  "alt": "cave icon",
+  "category": "Cave",
+  "href": "/cave"
+},
+{
+  "index": 10,
+  "class": "bed-and-breakfast item",
+  "img": "bed-and-breakfast.png",
+  "alt": "bed-and-breakfast icon",
+  "category": "Bed and Breakfast",
+  "href": "/bed-and-breakfast"
+},
+{
+  "index": 11,
+  "class": "cities item",
+  "img": "buildings.png",
+  "alt": "cities icon",
+  "category": "Iconic Cities",
+  "href": "/cities"
+},
+{
+  "index": 12,
+  "class": "desert item",
+  "img": "cactus.png",
+  "alt": "desert icon",
+  "category": "Desert",
+  "href": "/desert"
+},
+{
+  "index": 13,
+  "class": "beach item",
+  "img": "beach.png",
+  "alt": "beach icon",
+  "category": "Beach",
+  "href": "/beach"
+},
+{
+  "index": 14,
+  "class": "chef item",
+  "img": "chef.png",
+  "alt": "chef icon",
+  "category": "Chefs Kitchen",
+  "href": "/chef"
+}
+
+  ]

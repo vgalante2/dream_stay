@@ -1,0 +1,766 @@
+@import 'swiper/swiper-bundle.css';
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import "react-datepicker/dist/react-datepicker.css";
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+.body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .logo {
+    height: 30px;
+    width: auto;
+    padding-right: 0;
+    padding-left: 3px;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: thin solid rgb(230, 230, 230);
+  padding-bottom: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(222, 222, 222);
+  border-radius: 20px;
+  height: 45px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+@media (max-width: 600px) {
+  .buttons {
+    display: none;
+  }
+}
+.buttons .btn {
+  background-color: white;
+  border: none;
+  border-right: 1px solid rgb(222, 222, 222); /* Add this line */
+  border-radius: 20px;
+  font-size: 1rem;
+  font-family: "Belanosima", sans-serif;
+  padding: 10px 20px; /* Add this line, adjust values as needed */
+}
+.buttons .btn:hover {
+  background-color: #FE5257;
+}
+.buttons .btn.anyguest {
+  border-right: none;
+}
+
+.search-btn-section {
+  padding: 5px;
+}
+
+.search-btn {
+  color: #FE5257;
+  border: #FE5257 solid 2px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px 15px; /* Add this line, adjust values as needed */
+}
+.search-btn:hover {
+  background-color: #FE5257;
+  color: white;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.item-1:hover, .item-2:hover, .item-3:hover {
+  background-color: rgb(242, 242, 242);
+  border-radius: 3rem;
+}
+@media (max-width: 600px) {
+  .item-1, .item-2, .item-3 {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .item-1 {
+    visibility: hidden;
+  }
+}
+
+.item-3 {
+  position: relative;
+  top: 2.4px;
+}
+
+.globe {
+  color: #FE5257;
+}
+
+li {
+  display: flex;
+  font-family: "Belanosima", sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+}
+li .item-1 {
+  color: #FE5257;
+}
+@media (max-width: 600px) {
+  li .item-1 {
+    font-size: 5px;
+    width: 110px;
+    padding: 0;
+  }
+}
+li .account {
+  color: #FE5257;
+}
+li .region {
+  color: #FE5257;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.dropdown-content {
+  background-color: rgb(255, 255, 255);
+  border: thin solid rgba(225, 225, 225, 0.9);
+  border-radius: 20px;
+  position: absolute;
+  top: 89px;
+  right: 40%;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  z-index: 2;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.dropdown-content.anywhere {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  position: absolute;
+  top: 89px;
+  right: 40%;
+  height: 200px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* creates a grid with three columns of equal width */
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.dropdown-content.anywhere .drop-btn.america {
+  background-image: url(../../public/america.png);
+  background-size: cover; /* This will make sure the image covers the entire button */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+}
+.dropdown-content.anywhere .drop-btn.flexible {
+  background-image: url(../../public/flexible.jpeg);
+  background-size: cover; /* This will make sure the image covers the entire button */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+}
+.dropdown-content.anywhere .drop-btn.caribbean {
+  background-image: url(../../public/caribbean.png);
+  background-size: cover; /* This will make sure the image covers the entire button */
+  background-repeat: no-repeat;
+}
+.dropdown-content.anywhere .drop-btn.bali {
+  background-image: url(../../public/bali.png);
+  background-size: cover; /* This will make sure the image covers the entire button */
+  background-repeat: no-repeat;
+}
+.dropdown-content.anywhere .drop-btn.europe {
+  background-image: url(../../public/europe.png);
+  background-size: cover; /* This will make sure the image covers the entire button */
+  background-repeat: no-repeat;
+}
+.dropdown-content.anywhere .drop-btn.canada {
+  background-image: url(../../public/canada.png);
+  background-size: cover; /* This will make sure the image covers the entire button */
+  background-repeat: no-repeat;
+}
+
+.homes-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  padding-top: 70px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media (max-width: 767px) {
+  .header-container {
+    align-items: center;
+  }
+}
+
+.names-rating-section {
+  display: flex;
+  flex-direction: column;
+  height: 8.5vh;
+  width: 100%;
+}
+.names-rating-section h1 {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .names-rating-section h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.home-title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 767px) {
+  .home-title {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 767px) {
+  .home-sub {
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+}
+.home-sub .star {
+  height: 13px;
+  width: max-content;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (max-width: 767px) {
+  .home-sub .star {
+    padding: 0;
+    height: 11px;
+    color: #FE5257;
+  }
+}
+
+.names-rating-section > * {
+  margin: -2px;
+}
+
+.picture-section {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.picture-section img {
+  height: 300px;
+  width: 300px;
+  border: 2px white solid;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .picture-section img {
+    height: 120px;
+    width: 120px;
+    flex-wrap: wrap;
+  }
+}
+
+.picture-section img.zoomed {
+  transform: scale(1.5); /* Adjust the scale value to your desired zoom level */
+}
+
+@media (max-width: 767px) {
+  .picture-section img {
+    height: 120px;
+    width: 120px;
+    flex-wrap: wrap;
+    transition: transform 0.3s;
+  }
+  .picture-section img.zoomed {
+    transform: scale(2);
+  }
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  padding-top: 10px;
+}
+@media (max-width: 767px) {
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-top: 10px;
+  }
+}
+
+.span {
+  font-size: 20px;
+  color: #252525;
+}
+
+.info-section {
+  justify-content: flex start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  top: 60px;
+  padding: 1.5rem 2rem;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.info-section h1 {
+  margin: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 767px) {
+  .info-section h1 {
+    font-size: 1.2rem;
+  }
+}
+.info-section p {
+  margin: 3px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .info-section p {
+    font-size: 0.8rem;
+    width: max-content;
+  }
+}
+
+.price-container {
+  width: 550px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.09);
+  align-items: center;
+  border: 1px rgb(214, 214, 214) solid;
+  border-radius: 20px;
+  text-align: center;
+}
+.price-container h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.price-container h4 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.total-price {
+  color: #FE5257;
+}
+
+label {
+  width: max-content;
+  text-align: center;
+}
+
+.picker {
+  background-color: #e9e9e9;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.booking {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  bottom: 70px;
+  justify-content: space-between;
+}
+
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  width: 100%;
+}
+.home-intro h1 {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+}
+.home-intro p {
+  padding: 0.5rem 20rem;
+  line-height: 20px;
+}
+
+.react-datepicker {
+  width: auto;
+  float: none;
+}
+
+.react-datepicker__day--selected {
+  background-color: #FE5257;
+}
+.react-datepicker__day--selected:hover {
+  background-color: #fa9598;
+}
+
+.react-datepicker__day:hover {
+  background-color: #fa9598;
+}
+
+.react-datepicker__day--in-range {
+  background-color: #FE5257;
+}
+.react-datepicker__day--in-range :hover {
+  background-color: #fa9598;
+}
+
+.react-datepicker__day--selecting-range-start {
+  background-color: #FE5257;
+}
+
+.react-datepicker__day--selecting-range-end {
+  background-color: #FE5257;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #fa9598;
+}
+
+.react-datepicker__day--in-selecting-range {
+  background-color: #fa9598;
+}
+
+.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range) {
+  background-color: #fa9598;
+}
+
+.react-datepicker__month-container {
+  width: 100%;
+}
+
+.guest-picker {
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  height: 50px;
+  width: auto;
+  background-color: #fa9598;
+  padding: 5px 10px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .guest-picker {
+    width: auto;
+  }
+}
+
+.guest-dropdown {
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 300px;
+  position: absolute;
+  left: -109px;
+  z-index: 9;
+  background-color: #fff;
+  border-radius: 20px;
+  font-weight: 300;
+}
+.guest-dropdown span {
+  font-family: "Poppins", sans-serif;
+}
+
+.guest-dropdown div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.guest-dropdown div span {
+  letter-spacing: 1px;
+}
+
+.guest-selector {
+  gap: 12px;
+}
+.guest-selector button {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(199, 199, 199);
+}
+.guest-selector button:hover {
+  background-color: rgb(255, 184, 184);
+  border: black 1px solid;
+}
+
+.guest-btn {
+  border-radius: 20px;
+  height: 40px;
+  width: 180px;
+  color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+}
+
+.reserve-btn {
+  border: none;
+  height: 80px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fa9598;
+}
+.reserve-btn:hover {
+  border: #fa9598 2px solid;
+  color: white;
+  background-color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 1.5rem 1rem;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.links-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.8rem;
+  opacity: 0.6;
+  min-width: 80px;
+}
+.links-box .links-label {
+  font-size: 0.8rem;
+  font-family: "Belanosima", sans-serif;
+  color: rgb(52, 52, 52);
+  text-align: center;
+}
+.links-box .links-img {
+  object-fit: contain;
+  height: 2rem;
+  width: 2rem;
+}
+
+.links-box:hover,
+.links-box:focus,
+.links-box.selected-box {
+  opacity: 1;
+  border-bottom: 1px solid black;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.selected-label {
+  font-weight: 800;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .links {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1rem 0.5rem;
+  }
+  .links-box {
+    margin: 0.5rem;
+    min-width: 50px;
+  }
+  .links-box .links-label {
+    font-size: 0.7rem;
+  }
+  .links-box .links-img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+.profile {
+  color: #FE5257;
+}
+
+.burger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.menu-items {
+  font-family: "Belanosima", sans-serif;
+  font-size: rem;
+}
+
+.card {
+  margin: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.swiper-container {
+  height: 270px;
+  width: 270px;
+  overflow: hidden;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-img {
+  height: 270px;
+  width: 270px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card-box .swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .swiper-container,
+  .card-img {
+    height: 400px;
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .swiper-container,
+  .card-img {
+    height: 50%;
+    max-height: 190px;
+    width: 70vw;
+  }
+  .cards-flex {
+    padding: 0px;
+  }
+}
+path {
+  color: rgb(103, 103, 103);
+}
+path:hover {
+  color: rgb(246, 150, 150);
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgb(218, 218, 218);
+  display: block;
+  z-index: 1000;
+}
+@media (min-width: 600px) {
+  .bottom-nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

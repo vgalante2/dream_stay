@@ -72,7 +72,7 @@ function HomesPage() {
                     <h1>{home.title}</h1>
                 </div>
                 <div className="home-sub">
-                    <p> <StarRateRoundedIcon className="star" />{home.rating}</p>
+                    <p> <StarRateRoundedIcon className="star" style={{ color: '#FE5257' }} />{home.rating}</p>
                     <p>{home.location}</p>
                 </div>
             </div>

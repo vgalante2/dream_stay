@@ -19,7 +19,7 @@ gap: 15px;
 
 
 @media(max-width: 767px) {
-    padding: 20px;
+    padding-top: 30px;
 } 
 }
 
@@ -27,7 +27,7 @@ gap: 15px;
 .names-rating-section {
 display: flex;
 flex-direction: column;
-height: 12vh;
+height: 8.5vh;
 width: 100%;
 
 h1 {
@@ -35,10 +35,18 @@ h1 {
    padding: 0;
 
    @media(max-width:767px) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     
 
    }
+
+}
+
+p {
+    @media(max-width: 767px) {
+        font-size: 0.8rem;
+        width: max-content;
+    }
 }
 
 }
@@ -81,12 +89,12 @@ display: flex;
        margin: 0;
        padding-left: 5px;
        padding-right: 5px;
-       color: #FE5257;
+       
        
        @media(max-width: 767px) {
        padding: 0;
        height: 11px;
-       color: #FE5257;
+       
       
     }
     }
@@ -302,8 +310,13 @@ label {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    width: 100%;
+    padding: 2rem 1rem; 
+    width: 60%;
+
+    @media(max-width: 767px) {
+        width: auto;
+        padding: 1rem 0;
+    }
 
     
     h1 {

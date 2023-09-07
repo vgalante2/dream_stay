@@ -227,7 +227,7 @@ li a {
 .names-rating-section {
   display: flex;
   flex-direction: column;
-  height: 8.5vh;
+  height: 12vh;
   width: 100%;
 }
 .names-rating-section h1 {

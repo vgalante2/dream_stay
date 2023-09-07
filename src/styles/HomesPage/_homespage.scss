@@ -74,12 +74,12 @@ display: flex;
     margin: 0px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    width: 100%;
+    
 
     @media(max-width: 767px) {
         justify-content: center;
         font-size: 0.9rem;
-        gap: 7px;
+       
 
     }
 

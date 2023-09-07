@@ -226,7 +226,7 @@ width: 100%;
     margin-bottom: 100px;
 
     @media(max-width: 767px) { 
-       width: 400px;
+       width: 300px;
        height: 400px;
 
 
@@ -461,6 +461,7 @@ input.picker.react-datepicker-ignore-onclickoutside {
    padding: 10px;
     border-radius: 20px;
     background-color: #fa9598;
+    color: white;
     
     &:hover {
         border: #fa9598 2px solid;

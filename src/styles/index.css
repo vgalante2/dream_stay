@@ -390,7 +390,7 @@ li a {
 }
 @media (max-width: 767px) {
   .price-container {
-    width: 400px;
+    width: 300px;
     height: 400px;
   }
 }
@@ -582,6 +582,7 @@ label {
   padding: 10px;
   border-radius: 20px;
   background-color: #fa9598;
+  color: white;
 }
 .reserve-btn:hover {
   border: #fa9598 2px solid;

@@ -268,11 +268,13 @@ li a {
   margin: 0px;
   align-items: center;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .home-sub {
     justify-content: center;
     font-size: 0.9rem;
+    gap: 7px;
   }
 }
 .home-sub .star {
@@ -302,6 +304,11 @@ li a {
   display: flex;
   justify-content: flex-start;
   width: 100%;
+}
+@media (max-width: 767px) {
+  .picture-section {
+    justify-content: center;
+  }
 }
 
 .picture-section img {

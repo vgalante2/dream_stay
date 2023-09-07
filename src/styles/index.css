@@ -218,11 +218,6 @@ li a {
   flex-direction: column;
   gap: 15px;
 }
-@media (max-width: 767px) {
-  .header-container {
-    align-items: center;
-  }
-}
 
 .names-rating-section {
   display: flex;
@@ -289,6 +284,12 @@ li a {
   margin: -2px;
 }
 
+@media (max-width: 767px) {
+  .names-rating-section {
+    flex-direction: column;
+    display: flex;
+  }
+}
 .picture-section {
   display: flex;
   justify-content: flex-start;

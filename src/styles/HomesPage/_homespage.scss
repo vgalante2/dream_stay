@@ -83,20 +83,19 @@ display: flex;
 
     }
 
+    p {
+        
+    }
+
     .star {
-        height: 13px;
+       
         width: max-content;
        margin: 0;
        padding-left: 5px;
        padding-right: 5px;
-       
-       
-       @media(max-width: 767px) {
-       padding: 0;
-       height: 11px;
+       color: #FE5257;
        
       
-    }
     }
     }
 

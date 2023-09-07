@@ -286,8 +286,7 @@ li a {
 
 @media (max-width: 767px) {
   .names-rating-section {
-    flex-direction: column;
-    display: flex;
+    padding: 10px 0;
   }
 }
 .picture-section {

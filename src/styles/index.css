@@ -275,6 +275,7 @@ li a {
   margin: 0;
   padding-left: 5px;
   padding-right: 5px;
+  color: #FE5257;
 }
 @media (max-width: 767px) {
   .home-sub .star {
@@ -308,19 +309,12 @@ li a {
   }
 }
 
-.picture-section img.zoomed {
-  transform: scale(1.5); /* Adjust the scale value to your desired zoom level */
-}
-
 @media (max-width: 767px) {
   .picture-section img {
     height: 120px;
     width: 120px;
     flex-wrap: wrap;
     transition: transform 0.3s;
-  }
-  .picture-section img.zoomed {
-    transform: scale(2);
   }
 }
 .footer-container {
@@ -382,7 +376,7 @@ li a {
 }
 
 .price-container {
-  width: 550px;
+  width: 500px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -392,6 +386,13 @@ li a {
   border: 1px rgb(214, 214, 214) solid;
   border-radius: 20px;
   text-align: center;
+  margin-bottom: 100px;
+}
+@media (max-width: 767px) {
+  .price-container {
+    width: 400px;
+    height: 400px;
+  }
 }
 .price-container h1 {
   text-align: center;
@@ -449,16 +450,16 @@ label {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1.5rem 2rem;
   width: 100%;
 }
 .home-intro h1 {
   font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
+  width: max-content;
 }
 .home-intro p {
-  padding: 0.5rem 20rem;
   line-height: 20px;
+  width: 85%;
 }
 
 .react-datepicker {
@@ -753,9 +754,10 @@ path:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
+  box-sizing: border-box;
   border-top: 1px solid rgb(218, 218, 218);
-  display: block;
   z-index: 1000;
+  display: border-box;
 }
 @media (min-width: 600px) {
   .bottom-nav {

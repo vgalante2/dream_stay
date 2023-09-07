@@ -13,6 +13,7 @@ import logo from "../assets/dreamstay.png";
 function HomesPage() {
     const { id } = useParams();
     const home = homesData.find(homeItem => homeItem.id === Number(id));
+
     
     const [dateRange, setDateRange] = useState([null, null]);
     const [startDate, endDate] = dateRange;
@@ -42,6 +43,10 @@ function HomesPage() {
             [group]: prevCounts[group] - 1
         }));
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     useEffect(() => {
         if (startDate && endDate) {

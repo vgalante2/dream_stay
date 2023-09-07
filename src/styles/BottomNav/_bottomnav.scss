@@ -4,13 +4,24 @@
  position: fixed;
  bottom: 0;
  width: 100%;
+ box-sizing: border-box;
 border-top: 1px solid rgb(218, 218, 218);
-display: block;
 z-index: 1000;
+display: border-box;
+
+
 
 @media(min-width: 600px) {
     display: none;
     
 }
 }
+
+
+
+
+
+
+
+
 

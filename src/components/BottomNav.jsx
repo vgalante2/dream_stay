@@ -24,6 +24,7 @@ export default function SimpleBottomNavigation() {
         sx={{
         ".MuiSvgIcon-root": {
           color: "#FE5257",
+          width: "100%"
 
          
         },

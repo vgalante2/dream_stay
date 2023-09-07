@@ -218,6 +218,11 @@ li a {
   flex-direction: column;
   gap: 15px;
 }
+@media (max-width: 767px) {
+  .header-container {
+    padding: 20px;
+  }
+}
 
 .names-rating-section {
   display: flex;

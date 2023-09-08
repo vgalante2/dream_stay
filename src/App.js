@@ -4,6 +4,7 @@ import BottomNav from "./components/BottomNav";
 import { Route, Routes } from "react-router-dom";
 import Home from './Pages/Home';
 import HomesPage from './Pages/HomesPage';
+import Footer from './components/Footer';
 
 
 

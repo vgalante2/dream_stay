@@ -791,6 +791,11 @@ path:hover {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 601px) {
+  .footer {
+    display: none;
+  }
+}
 
 .footer-content {
   display: flex;

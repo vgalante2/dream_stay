@@ -87,7 +87,7 @@ function HomesPage() {
 </div>
         </div>
         <div className="home-intro">
-           <h1> Home intro</h1>
+           <h1> Details</h1>
            <p>{home.info}</p>
            </div>
         <div className="footer-container">

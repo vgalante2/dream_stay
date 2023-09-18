@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles/index.css';
 import BottomNav from "./components/BottomNav";
 import { Route, Routes } from "react-router-dom";
 import Home from './Pages/Home';
 import HomesPage from './Pages/HomesPage';
-import Footer from './components/Footer';
+
 
 
 
 
 function App() {
+
+useEffect(() => {
+  const timer = setTimeout(() => {
+    alert("The Dev is still working on this ⏳ ");
+  }, 3000);
+})
+
   return (
     <>
   <Routes>

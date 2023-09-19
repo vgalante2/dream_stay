@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import "react-datepicker/dist/react-datepicker.css";
 
+body {
+    overflow-x: hidden;
+}
+
+
 .homes-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .header-container {
@@ -16,6 +22,10 @@ align-items: flex-start;
 display: flex;
 flex-direction: column;
 gap: 15px;
+
+& img {
+    max-width: 100%;
+}
 
 
 @media(max-width: 767px) {
@@ -116,51 +126,73 @@ margin: -2px;
 
 
 
+.home {
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .main-picture img {
+    width: 570px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    align-items: center;
+    display: block;
+    margin: 0 auto 10px auto;
 
-.picture-section {
-display: flex;
-justify-content: flex-start;
-width: 100%;
+    @media(max-width: 767px) {
+        width: 65%;
+        height: 30%;
+    }
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    padding-bottom: 20px;
 
-@media(max-width: 767px) {
-    justify-content: center;
-   
-}
-}
-
-.picture-section img {
-
-    height: 300px;
-    width: 300px;
-    border: 2px white solid;
-    border-radius: 10px;
-   
-
-
-  @media(max-width:767px) {
-    height: 120px;
-    width: 120px;
-    flex-wrap: wrap;
-
+    @media(max-width: 767px) {
+       justify-content: space-around;
+    }
+  }
+  
+  .thumbnails {
+    gap: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: space-evenly;
    
   }
-   
-}
+  
+  .thumbnails img {
+    cursor: pointer;
 
+    
+  }
+  
+  .img-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
 
-
-
-
-@media(max-width: 767px) {
-    .picture-section img {
-        height: 120px;
-        width: 120px;
-        flex-wrap: wrap;
-        transition: transform 0.3s;
+    &:hover {
+      color: $red;
     }
-
-   
-}
+  }
+  
+  
+  .thumbnails img:hover {
+    border: 1px solid $red;
+  }
+  
 
 
 

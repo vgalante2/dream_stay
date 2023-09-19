@@ -14,7 +14,10 @@ function HomesPage() {
     const { id } = useParams();
     const home = homesData.find(homeItem => homeItem.id === Number(id));
 
-    
+
+    const [mainPicture, setMainPicture] = useState(home.imgSrc[0]);
+    const [thumbnailIndex, setThumbnailIndex] = useState(0);
+
     const [dateRange, setDateRange] = useState([null, null]);
     const [startDate, endDate] = dateRange;
     const [guestCount, setGuestCount] = useState(0);
@@ -57,8 +60,15 @@ function HomesPage() {
         }
     }, [startDate, endDate, home.price]);
 
- 
-
+    const nextThumbnails = () => {
+        setThumbnailIndex(prevIndex => Math.min(prevIndex + 5, home.imgSrc.length - 5));
+      };
+      
+      const prevThumbnails = () => {
+        setThumbnailIndex(prevIndex => Math.max(prevIndex - 5, 0));
+      };
+      
+   
 
  
   return (
@@ -76,15 +86,26 @@ function HomesPage() {
                     <p>{home.location}</p>
                 </div>
             </div>
-            <div className="picture-section">
-    {home.imgSrc.slice(0, 3).map((src, index) => (
-        <img 
-            key={index} 
-            src={src} 
-            alt={` ${index} ${home.title}`} 
-        />
-    ))}
+        
+            <div className="main-picture">
+  <img src={mainPicture} alt={`${home.name} main`} />
 </div>
+<div className="thumbnail-container">
+  <button className="img-btn" onClick={prevThumbnails} disabled={thumbnailIndex === 0}>←</button>
+  <div className="thumbnails">
+    {home.imgSrc.slice(thumbnailIndex, thumbnailIndex + 5).map((src, index) => (
+      <img 
+        key={index} 
+        src={src} 
+        alt={`${home.name} pic ${index + 1}`} 
+        onClick={() => setMainPicture(src)}
+      />
+    ))}
+  </div>
+  <button className="img-btn" onClick={nextThumbnails} disabled={thumbnailIndex >= home.imgSrc.length - 5}>→</button>
+</div>
+
+      
         </div>
         <div className="home-intro">
            <h1> Details</h1>

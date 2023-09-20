@@ -1,5 +1,5 @@
 import React, { useEffect, useState} from "react";
-import Navbar from "../components/Navbar";
+
 import { useParams } from 'react-router-dom';
 import homesData from '../components/homes.json';
 import DatePicker from "react-datepicker";
@@ -72,7 +72,7 @@ function HomesPage() {
 
   return (
     <div className="homes-page">
-            <Navbar />
+        
         <div className="header-container">
             <div className="names-rating-section">
                 <div className="home-title">

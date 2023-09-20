@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './styles/index.css';
 import BottomNav from "./components/BottomNav";
 import { Route, Routes } from "react-router-dom";

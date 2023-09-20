@@ -2,7 +2,6 @@ import React, { useEffect, useState} from "react";
 import Navbar from "../components/Navbar";
 import { useParams } from 'react-router-dom';
 import homesData from '../components/homes.json';
-import StarRateRoundedIcon from "@mui/icons-material/StarRateRounded";
 import DatePicker from "react-datepicker";
 import logo from "../assets/dreamstay.png";
 
@@ -70,7 +69,8 @@ function HomesPage() {
       
    
 
- 
+   
+
   return (
     <div className="homes-page">
         <div>

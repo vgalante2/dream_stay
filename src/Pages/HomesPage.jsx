@@ -73,9 +73,7 @@ function HomesPage() {
 
   return (
     <div className="homes-page">
-        <div>
             <Navbar src={logo} />
-        </div>
         <div className="header-container">
             <div className="names-rating-section">
                 <div className="home-title">

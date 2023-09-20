@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import { useParams } from 'react-router-dom';
 import homesData from '../components/homes.json';
 import DatePicker from "react-datepicker";
-import logo from "../assets/dreamstay.png";
 
 
 
@@ -73,7 +72,7 @@ function HomesPage() {
 
   return (
     <div className="homes-page">
-            <Navbar src={logo} />
+            <Navbar />
         <div className="header-container">
             <div className="names-rating-section">
                 <div className="home-title">

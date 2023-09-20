@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
 
-.logo{
-
-    height: 40px;
-    width: auto;
-    padding: 20px;
-
-    @media(max-width: 767px) {
-      height: 20px;
-      width: auto;
-      padding-right: 0;
-      padding-left: 3px;
-    }
+@media (max-width: 767px) {
+  .logo {
+    height: 20px;
+    padding-left: 10px;
+  }
 }
 
 
 .navbar {
 display: flex;
 justify-content:space-around;
-align-items: center;
 flex-direction: row;
 border-bottom: thin solid rgb(230, 230, 230);
 padding-bottom: 5px;
+align-items: center;
+
 
 
 
@@ -93,8 +87,8 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-gap: 20px;
-padding: 10px;
+padding: 5px;
+    gap: 10px;
 
 }
 

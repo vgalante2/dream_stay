@@ -26,6 +26,7 @@
 @media (max-width: 767px) {
   .logo {
     height: 50px;
+    width: 100px;
     padding-left: 10px;
   }
 }

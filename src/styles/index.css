@@ -23,6 +23,12 @@
   height: 50px;
   width: max-content;
 }
+@media (max-width: 767px) {
+  .logo {
+    height: 30px;
+    width: max-content;
+  }
+}
 
 .navbar {
   display: flex;

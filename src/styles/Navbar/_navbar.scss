@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
 
-@media (max-width: 767px) {
-  .logo {
+
+.logo {
+
+    height: 50px;
+    width: max-content;
+
+  @media (max-width: 767px) {
     height: 20px;
     padding-left: 10px;
   }
 }
+
+
 
 
 .navbar {

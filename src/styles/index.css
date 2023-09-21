@@ -19,12 +19,17 @@
   padding: 0;
 }
 
+.logo {
+  height: 50px;
+  width: max-content;
+}
 @media (max-width: 767px) {
   .logo {
     height: 20px;
     padding-left: 10px;
   }
 }
+
 .navbar {
   display: flex;
   justify-content: space-around;

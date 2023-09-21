@@ -208,6 +208,17 @@ body {
   overflow-x: hidden;
 }
 
+.logo {
+  height: 50px !important;
+  width: max-content;
+}
+@media (max-width: 767px) {
+  .logo {
+    height: 30px !important;
+    width: max-content !important;
+  }
+}
+
 .homes-page {
   display: flex;
   flex-direction: column;

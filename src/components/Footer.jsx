@@ -7,7 +7,7 @@ function Footer()  {
    <div className="footer-content">
     <ul>
     <li>Terms of Service</li>
-    <li><img src={logo} alt="logo" className="logo"/></li>
+    <li><img src={logo} alt="logo" className="footer-logo"/></li>
     <li>Privacy Policy</li>
     </ul>
    </div>

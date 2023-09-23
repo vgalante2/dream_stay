@@ -214,8 +214,8 @@ body {
 }
 @media (max-width: 767px) {
   .logo {
-    height: 30px !important;
-    width: max-content !important;
+    height: 30px;
+    width: 130px;
   }
 }
 

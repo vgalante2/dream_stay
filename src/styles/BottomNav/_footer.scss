@@ -47,14 +47,10 @@
   }
   
   .footer-logo {
-    height: 100px;
+    height: 60px;
     width: max-content;
     padding: 0;
     margin: 0;
     
-    @media(max-width: 767px) {
-      height: 50px;
-      
-    }
   }
   

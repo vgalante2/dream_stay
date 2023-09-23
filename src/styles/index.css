@@ -26,7 +26,7 @@
 @media (max-width: 767px) {
   .logo {
     height: 30px !important;
-    width: 120px;
+    width: 130px;
   }
 }
 
@@ -113,6 +113,10 @@
 .item-3 {
   position: relative;
   top: 2.4px;
+}
+
+ul {
+  flex-direction: column;
 }
 
 .globe {
@@ -727,7 +731,12 @@ label {
 
 .menu-items {
   font-family: "Belanosima", sans-serif;
-  font-size: rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  flex-direction: column;
 }
 
 .card {

@@ -40,10 +40,10 @@ export default function BasicMenu() {
         sx={{
         ".MuiMenuItem-root": {
            
-            paddingBottom: ".5rem",
-            paddingTop: ".5rem",
-            paddingRight: "4rem",
-            fontSize:   "13px",
+          textAlign: "center", // Add this line to center the text
+      paddingBottom: ".5rem",
+      paddingTop: ".5rem",
+      fontSize: "13px",
         },
 
         }}
@@ -55,7 +55,8 @@ export default function BasicMenu() {
             style={{
                 height: "1px",
                 backgroundColor: "rgb(255, 186, 186)",
-                width: "100%",
+                width: "100%"
+               
             }}
         />
         <MenuItem  onClick={handleClose} className="menu-items" >DreamStay Your Home</MenuItem>

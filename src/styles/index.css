@@ -888,6 +888,11 @@ li {
   padding: 0;
   margin: 0;
 }
+@media (max-width: 767px) {
+  .footer-logo {
+    height: 50px;
+  }
+}
 
 .custom-alert {
   position: fixed;

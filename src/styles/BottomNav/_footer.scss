@@ -52,5 +52,9 @@
     padding: 0;
     margin: 0;
     
+    @media(max-width: 767px) {
+      height: 50px;
+      
+    }
   }
   

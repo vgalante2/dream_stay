@@ -48,6 +48,7 @@ export default function SimpleBottomNavigation() {
       color: 'black',
     }, }}label="Home" icon={<HomeIcon />} />
     </Link>
+    <Link to={`/favorites`}>
         <BottomNavigationAction sx={{
     '&:hover': {
       color: 'red', // Color on hover
@@ -55,7 +56,9 @@ export default function SimpleBottomNavigation() {
     '&.Mui-selected': {
       color: 'black',
     }, }}  label="Favorites" icon={<FavoriteIcon />} />
+     </Link>
       </BottomNavigation>
+     
     </div>
   );
 }

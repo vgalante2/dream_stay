@@ -322,6 +322,7 @@ h2 {
   align-items: center;
   display: block;
   margin: 0 auto 10px auto;
+  padding-top: 5px;
 }
 @media (max-width: 767px) {
   .main-picture img {

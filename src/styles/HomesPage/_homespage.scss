@@ -147,6 +147,7 @@ margin: -2px;
     align-items: center;
     display: block;
     margin: 0 auto 10px auto;
+    padding-top: 5px;
 
     @media(max-width: 767px) {
         width: 65%;
@@ -173,7 +174,7 @@ margin: -2px;
     width: 30px;
     display: flex;
     justify-content: space-evenly;
-   
+  
   }
   
   .thumbnails img {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import StarRateRoundedIcon from "@mui/icons-material/StarRateRounded";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,7 +12,20 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 
 
 
-function Card({ home }) {
+function Card({ home, toggleFavorite }) {
+
+
+
+ function wasHearted(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  toggleFavorite(home.id);
+
+}
+
+
+
+
   return (
     <Link to={`/homes/${home.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
     <div className="card">
@@ -26,7 +39,8 @@ function Card({ home }) {
         modules={[Pagination, Navigation]}
         className="swiper-container"
       >
-      <FavoriteIcon className="favorite"  style={{ position: 'absolute', top: '10px', left: '10px', zIndex: 1, color: "rgba(0, 0, 0, 0.5)", filter: "brightness(0.9) blur(0.2px)",  stroke: "white", strokeWidth: "3px" }}/>
+      <FavoriteIcon  className="favorite" onClick={wasHearted} style={{ position: 'absolute', top: '10px', left: '10px', zIndex: 1, color: home.isFavorited ? "rgba(0, 0, 0, 0.5)" : null, filter: "brightness(0.9) blur(0.2px)",  stroke: "white", strokeWidth: "3px" }}/>
+
         {home.imgSrc.map((src, i) => (
       
           <SwiperSlide id={i}>

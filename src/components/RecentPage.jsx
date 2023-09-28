@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FavoritesPage() {
+function RecentPage() {
   return (
     <div>
         
@@ -8,4 +8,4 @@ function FavoritesPage() {
   )
 }
 
-export default FavoritesPage;
+export default RecentPage;

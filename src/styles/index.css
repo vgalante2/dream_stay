@@ -824,6 +824,7 @@ path:hover {
   border-top: 1px solid rgb(218, 218, 218);
   z-index: 1000;
   display: border-box;
+  align-items: center;
 }
 @media (min-width: 600px) {
   .bottom-nav {
@@ -918,6 +919,15 @@ li {
   color: white;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.favorites-page {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  min-height: 100vh; /* Full viewport height */
+  flex-direction: column; /* Stack children vertically */
+  gap: 20px; /* Space between cards */
 }
 
 /*# sourceMappingURL=index.css.map */

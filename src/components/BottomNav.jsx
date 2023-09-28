@@ -9,7 +9,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
-  // const [favoriteMode, setFavoriteMode] = useState(false);
+
  
 
   return (
@@ -24,13 +24,15 @@ export default function SimpleBottomNavigation() {
         sx={{
         ".MuiSvgIcon-root": {
           color: "#FE5257",
-          width: "100%"
+          width: "100%",
+          display: "flex",
+          flexDirection: "row",
 
          
         },
       }}
       >
-      
+      <Link to={`/recent`}  label="Recents">
         <BottomNavigationAction  sx={{
     '&:hover': {
       color: 'red', // Color on hover
@@ -38,7 +40,8 @@ export default function SimpleBottomNavigation() {
     '&.Mui-selected': {
       color: 'black',
     }, }}label="Recents" icon={<RestoreIcon />} />
-        <Link to={`/`}  >
+        </Link>
+        <Link to={`/`}  label="Favorites">
         <BottomNavigationAction  
         sx={{
     '&:hover': {
@@ -48,14 +51,14 @@ export default function SimpleBottomNavigation() {
       color: 'black',
     }, }}label="Home" icon={<HomeIcon />} />
     </Link>
-    <Link to={`/favorites`}>
+    <Link to={`/favorites`} >
         <BottomNavigationAction sx={{
     '&:hover': {
       color: 'red', // Color on hover
     },
     '&.Mui-selected': {
       color: 'black',
-    }, }}  label="Favorites" icon={<FavoriteIcon />} />
+    }, }}  label={"Favorites"} icon={<FavoriteIcon />} />
      </Link>
       </BottomNavigation>
      

@@ -1,10 +1,10 @@
-@import 'swiper/swiper-bundle.css';
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+@import 'swiper/swiper-bundle.css';
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 @import "react-datepicker/dist/react-datepicker.css";
-@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 .body {
   overflow-x: hidden;
 }

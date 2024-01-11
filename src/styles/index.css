@@ -180,32 +180,39 @@ li a {
 .dropdown-content.anywhere .drop-btn.america {
   background-image: url(../../public/america.png);
   background-size: cover; /* This will make sure the image covers the entire button */
-  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  background-repeat: no-repeat;
+  border: black 2px solid;
+  /* This will prevent the image from repeating */
 }
 .dropdown-content.anywhere .drop-btn.flexible {
   background-image: url(../../public/flexible.jpeg);
   background-size: cover; /* This will make sure the image covers the entire button */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
+  border: black 2px solid;
 }
 .dropdown-content.anywhere .drop-btn.caribbean {
   background-image: url(../../public/caribbean.png);
   background-size: cover; /* This will make sure the image covers the entire button */
   background-repeat: no-repeat;
+  border: black 2px solid;
 }
 .dropdown-content.anywhere .drop-btn.bali {
   background-image: url(../../public/bali.png);
   background-size: cover; /* This will make sure the image covers the entire button */
   background-repeat: no-repeat;
+  border: black 2px solid;
 }
 .dropdown-content.anywhere .drop-btn.europe {
   background-image: url(../../public/europe.png);
   background-size: cover; /* This will make sure the image covers the entire button */
   background-repeat: no-repeat;
+  border: black 2px solid;
 }
 .dropdown-content.anywhere .drop-btn.canada {
   background-image: url(../../public/canada.png);
   background-size: cover; /* This will make sure the image covers the entire button */
   background-repeat: no-repeat;
+  border: black 2px solid;
 }
 
 body {
@@ -468,7 +475,7 @@ h2 {
 }
 
 .total-price {
-  color: #FE5257;
+  color: #f95156;
 }
 
 label {
@@ -481,7 +488,7 @@ label {
   border: none;
   height: 50px;
   width: 200px;
-  border-radius: 20px;
+  border-radius: 21px;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }

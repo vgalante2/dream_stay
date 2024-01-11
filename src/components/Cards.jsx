@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import StarRateRoundedIcon from "@mui/icons-material/StarRateRounded";
 import { Swiper, SwiperSlide } from "swiper/react";

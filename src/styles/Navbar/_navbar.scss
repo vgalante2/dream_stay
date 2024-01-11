@@ -201,6 +201,7 @@ a {
 .dropdown-content.anywhere {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+   
    position: absolute;
    top: 89px;
   right: 40%;
@@ -218,25 +219,30 @@ a {
 .drop-btn.america {
     background-image: url(../../public/america.png);
     background-size: cover;  /* This will make sure the image covers the entire button */
-    background-repeat: no-repeat;  /* This will prevent the image from repeating */
+    background-repeat: no-repeat;
+    border: black 2px solid;
+      /* This will prevent the image from repeating */
 }
 
 .drop-btn.flexible {
     background-image: url(../../public/flexible.jpeg);
     background-size: cover;  /* This will make sure the image covers the entire button */
     background-repeat: no-repeat;  /* This will prevent the image from repeating */
+    border: black 2px solid;
 }
 
 .drop-btn.caribbean {
     background-image: url(../../public/caribbean.png);
     background-size: cover;  /* This will make sure the image covers the entire button */
     background-repeat: no-repeat;
+    border: black 2px solid;
 }
 
 .drop-btn.bali {
     background-image: url(../../public/bali.png);
     background-size: cover;  /* This will make sure the image covers the entire button */
     background-repeat: no-repeat;
+    border: black 2px solid;
     
 }
 
@@ -244,6 +250,7 @@ a {
     background-image: url(../../public/europe.png);
     background-size: cover;  /* This will make sure the image covers the entire button */
     background-repeat: no-repeat;
+    border: black 2px solid;
     
 }
 
@@ -251,6 +258,7 @@ a {
     background-image: url(../../public/canada.png);
     background-size: cover;  /* This will make sure the image covers the entire button */
     background-repeat: no-repeat;
+    border: black 2px solid;
     
 }
 

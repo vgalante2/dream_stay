@@ -1,8 +1,5 @@
 
 
-.profile {
-    color: #FE5257;
-}
 
 .burger-menu {
  display: flex;
@@ -14,7 +11,6 @@
  border-radius: 20px;
  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
  
- 
 }
 
 
@@ -23,6 +19,7 @@
  font-family: 'Belanosima', sans-serif;
  font-size: 1rem;
  text-align: center;
+ flex-direction: column;
 
 }
 
@@ -32,6 +29,9 @@
 
 }
 
-
+.css-r8u8y9 {
+    flex-direction: column !important;
+    display: flex;
+}
 
 

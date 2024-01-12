@@ -722,10 +722,6 @@ label {
     width: 1.5rem;
   }
 }
-.profile {
-  color: #FE5257;
-}
-
 .burger-menu {
   display: flex;
   align-items: center;
@@ -741,10 +737,16 @@ label {
   font-family: "Belanosima", sans-serif;
   font-size: 1rem;
   text-align: center;
+  flex-direction: column;
 }
 
 .css-6hp17o-MuiList-root-MuiMenu-list {
   flex-direction: column;
+}
+
+.css-r8u8y9 {
+  flex-direction: column !important;
+  display: flex;
 }
 
 .card {

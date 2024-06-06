@@ -40,12 +40,6 @@ function Home() {
   
   return (
     <>
-      {showAlert && (
-        <AlertBox
-          message="the dev is still working on this"
-          onClose={() => setShowAlert(false)}
-        />
-      )}
       <Navbar />
       <Dashboard homesData={homesData} /> {/* Pass the data as a prop to the Dashboard component */}
       <Footer />

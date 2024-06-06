@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const Home = require('./homeModel.js');
-const homesData = require('../src/components/homes.json');
+const homesData = require('../frontend/src/components/homes.json');
 
 // Connect to MongoDB Atlas
 mongoose.connect(process.env.MONGO_URI, {

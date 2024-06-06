@@ -1,0 +1,19 @@
+
+.body {
+    overflow-x: hidden;
+    
+    @media(max-width: 767px) {
+        overflow-x: hidden;
+    }
+}
+
+
+
+.container {
+    margin: 0;
+    padding: 0;
+   
+    }
+
+
+$red: #FE5257;

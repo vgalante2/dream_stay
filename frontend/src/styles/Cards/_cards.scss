@@ -1,0 +1,78 @@
+
+.card {
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+
+  }
+  
+  .swiper-container {
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+
+  }
+
+  .swiper-container .swiper-pagination-bullet-active {
+    background-color: white;
+  }
+
+.card-title {
+    font-size: 1rem;
+}
+  
+  .card-img {
+    height: 270px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+   
+   
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .card-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .card-box .swiper-pagination-bullet-active {
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .swiper-container,
+    .card-img {
+      height: 400px;
+      width: 40vw;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .swiper-container,
+    .card-img {
+      height: 50%;
+      max-height: 190px;
+      width: 70vw;
+    }
+  
+    .cards-flex {
+      padding: 0px;
+    }
+  }
+
+
+  path {
+    color: rgb(103, 103, 103); 
+
+    &:hover{
+      color: rgb(246, 150, 150);
+    }
+  }
